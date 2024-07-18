@@ -219,7 +219,7 @@ body {
     /* 15/7/24 */
     #check:checked~.navbar{
         display: block;
-        height: 15rem;
+        height: 18rem;
     }
     /*  */
 
