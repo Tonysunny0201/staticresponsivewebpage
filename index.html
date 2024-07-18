@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STATIC RESPONSIVE WEBPAGE</title>
+    <!-- style link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boxicons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="header">
+        <a href="" class="logo">TOKYO</a>
+        <input type="checkbox" name="" id="check">
+        <label for="check" class="icons">
+            <!-- menu icon -->
+            <i id="menu" class='bx bx-menu '></i>
+             <!-- close icon -->
+             <i id="cancel" class='bx bx-x' ></i>
+        </label>
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#home-contents">ABOUT</a>
+            <a href="#populartours">TOUR</a>
+            <a href="#">GALLERY</a>
+            <a href="#reviews">REVIEWS</a>
+            <a href="#">CONTACTS</a>
+        </nav>
+    </header>
+
+    <div id="container">
+        
+        <!-- home -->
+        <section id="home">
+            <div class="heading"> 
+                <h1 class="homeheading">VISIT <br> TOKYO</h1>
+            </div>
+            <!-- home contents under the main heading "Visit tokyo" -->
+            <div id="home-contents" class="contents">
+                <div class="homecontents">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing. Ullam assumenda tempora autem id quos
+                        ratione, excepturi.</p>
+                        <br>
+                    <h5>Heading 1 <i class="fa-solid fa-arrow-right"></i></h5>
+                </div>
+                <div class="homecontents">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing. Ullam assumenda tempora autem id quos
+                        ratione, excepturi.</p>
+                        <br>
+
+                    <h5>Heading 2 <i class="fa-solid fa-arrow-right"></i></h5>
+                </div>
+                <div class="homecontents">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing. Ullam assumenda tempora autem id quos
+                        ratione, excepturi.</p>
+                        <br>
+
+                    <h5>Heading 3 <i class="fa-solid fa-arrow-right"></i></h5>
+                </div>
+            </div>
+            <br>
+            <hr>
+        </section>
+        <!-- popular tours -->
+        <section id="populartours" class="popular-tours">
+            <div class="tourheading">
+                <h1>POPULAR TOURS</h1>
+            </div>
+            <div class="tours">
+                <div class="tour">
+                    <img class="tour-img" src="./Images/tour6.jpg" alt="Tour 1">
+                    <h3>Тур №1</h3>
+                    <p>и получите незабываемые</p>
+                </div>
+                <div class="tour">
+                    <img class="tour-img" src="./Images/tour2.jpg" alt="Tour 2">
+                    <h3>Тур №2</h3>
+                    <p>и получите незабываемые</p>
+                </div>
+                <div class="tour">
+                    <img class="tour-img" src="./Images/tour3.jpg" alt="Tour 3">
+                    <h3>Тур №3</h3>
+                    <p>и получите незабываемые</p>
+                </div>
+                <div class="tour">
+                    <img class="tour-img" src="./Images/tour5.jpg" alt="Tour 4">
+                    <h3>Тур №4</h3>
+                    <p>и получите незабываемые</p>
+                </div>
+            </div>
+            <div class="tourfooter">
+                <i class="fa-solid fa-arrow-left">________________________________________________________________</i>
+
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </section>
+        <!-- last / reviews -->
+        <section id="reviews">
+            <div>
+                <h1 class="review-heading">TRAVEL AND <br>INSPIRE YOUR <br>LIFE</h1>
+                <i class="fa-regular fa-circle-play"></i> <span> Watch the video</span>
+            </div>
+            <div class="review-videos">
+                <div class="review-para">
+                    <p>Here will be the description text for the <br> video that is provided to you launch and <br>which
+                        is very interesting.</p>
+                </div>
+                <div><iframe class="review-v" width="350" height="250" src="https://www.youtube.com/embed/bC9m_id_Yds"
+                        title="🇯🇵 TOKYO Travel tips 🇯🇵 | Watch BEFORE you go!" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div><iframe class="review-v" width="350" height="250" src="https://www.youtube.com/embed/x2VAsdGtTYc"
+                        title="24 Things You Need to Know Before Traveling to Japan 2024 🇯🇵" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
